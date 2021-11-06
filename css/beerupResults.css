@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    left: 0%;
+    position: relative;
+    display: flex;
+  }
+
+  h2{
+      left: 25%;
+      right: 25%;
+      position: relative;
+  }
+
+  /* ==============section================== */
+  .menu {
+    display: flex;
+    margin: 50px 0px -25px 70px;
+  }
+  .menu img {
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0px 5px 5px #c9c9c9;
+  }
+  .article-1 {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 250px;
+    padding-left: 20px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 5px 5px #c9c9c9;
+  }
+  .article-1 :first-child {
+    font-size: 22px;
+    font-family: cursive;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+  .article-1 div {
+    display: inline-flex;
+    margin-left: -15px;
+  }
+  .article-1 .far,
+  .min-article div .far {
+    color: red;
+    margin: 16px 10px 0px 15px;
+  }
+  .fa-comments {
+    color: inherit;
+    position: relative;
+  }
+  .fa-comments::after {
+    content: "";
+    position: absolute;
+    background-color: #828282;
+    width: 1px;
+    height: 20px;
+    left: -7px;
+    top: -1px;
+  }
+  .min-article .fa-comments::after {
+    height: 15px;
+  }
+  span {
+    color: red;
+    cursor: pointer;
+  }
+  
